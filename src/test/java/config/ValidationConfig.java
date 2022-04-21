@@ -3,7 +3,7 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:${typeProperties}.properties"
+        "classpath:validation.properties"
 })
 public interface ValidationConfig extends Config {
     @Key("user")
